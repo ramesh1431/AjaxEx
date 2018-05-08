@@ -12,7 +12,7 @@
 			ResultSet rs = ps.executeQuery();
 
 			if (!rs.isBeforeFirst()) {
-				out.println("<p>No Record Found!</p>");
+				out.println("<font color:red'><p>No Record Found!</p></font>");
 			} else {
 				out.print("<table border='1' cellpadding='2' width='100%'>");
 				out.print(
